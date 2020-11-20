@@ -5,6 +5,10 @@
             "serve": "/.auth/login/aad"
         },
         {
+            "route": "/githublogin",
+            "serve": "/.auth/login/github"
+        },
+        {
             "route": "/*",
             "allowedRoles": ["authenticated"]
         }
